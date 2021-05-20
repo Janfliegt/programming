@@ -1,0 +1,4 @@
+https://blog.csdn.net/qq_41455420/article/details/82562613
+
+文件个数:    ls -l |grep "^-"|wc -l 
+文件夹个数:  ls -l |grep "^d"|wc -l
