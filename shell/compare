@@ -1,0 +1,16 @@
+https://blog.csdn.net/huangjin0507/article/details/45045537
+1. int大小比较
+   if [ $1 -gt $2 ]
+   then 
+       echo "参数$1大于参数$2"
+   else 
+       echo "参数$1小于参数$2"
+   fi
+2.小数比较
+   
+  a=1.6
+  b=6.1
+  c=`echo "$a > $b" | bc`
+  注意有的值可能需要处理
+  wer=${score_line##*: }
+  wer=${wer: 0: 4}
