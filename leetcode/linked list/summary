@@ -1,0 +1,9 @@
+1.删除节点:
+    1->2->3->None:两步
+    pre.next = cur.next
+    cur = None
+2.添加节点:三步->找出下一个节点,指向插入节点,插入节点指向下一个节点
+    next_node = cur.next
+    cur.next = insert_node
+    insert_node.next = next_node
+  
