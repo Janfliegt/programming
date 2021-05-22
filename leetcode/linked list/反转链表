@@ -1,1 +1,11 @@
-画个图就行了
+1.反转整个链表:
+    记录next
+    cur.next = pre
+    记录上一个
+    画个图就行
+2.反转部分链表,从left到right
+   1. left == right:不变
+   2. 需要反转部分看成问题1,但是记录四个节点, left_minus_1, left_node, right_node, right_plus_1
+      注意判断 left 是否为1
+      还是画图看
+    
