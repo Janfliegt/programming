@@ -9,4 +9,6 @@
 3.常见操作:
     提前记录下一个节点:next_node = cur.next
     当前节点变成上一个:pre = cur
+4.新建一个节点,他的下一个节点是头节点:List(next, head)
+5.快慢指针
   
