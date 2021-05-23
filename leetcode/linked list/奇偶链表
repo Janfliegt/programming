@@ -1,0 +1,10 @@
+抽出奇数链表和偶数链表,然后串联起来
+
+evenHead = head.next
+while even and even.next:
+    odd.next = even.next
+    odd = even.next
+    even.next = odd.next
+    even = even.next
+odd.next = evenHead
+reurn head
